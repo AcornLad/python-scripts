@@ -1,5 +1,5 @@
 #! python3
-# downloadWhompcomic.py - Downloads every single Whomp Comic
+# downloadWhompcomic.py - Downloads every single Whomp Comic starting from the current date, and moving back. Throws them in ./Whompcomic directory.
 
 import requests, os, bs4
 
